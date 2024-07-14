@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saylani Registration Form</title>
+</head>
+<body>
+    <center><img width="200px" src="assests/logo_saylaniwelfareusa.22bf709605809177256c.png" alt="Saylani Logo">
+    <h3>Registration Form</h3>
+</center>
+<center>
+    <form>
+        <table bgcolor="wheat" cellpadding="10" cellspacing="5">
+            <tr>
+                <td><label for="name">First Name:</label></td>
+                <td><input placeholder="Enter Your First Name"type="text" name="fname" id="fname" size="25" required>
+                <label for="">(max 30 characters a-z and A-Z)</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="name">Last Name:</label></td>
+                <td><input placeholder="Enter Your Last Name"type="text" name="lname" id="lname" size="25" required>
+                    <label for="">(max 30 characters a-z and A-Z)</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Date of Birth">Date of Birth:</label></td>
+                <td><input type="date" name="dof" id="dof" required></td>
+            </tr>
+            <tr>
+                <td><label for="Email">Email:</label></td>
+                <td><input placeholder="Enter Your Email Address"type="text" name="Email" size="25" required></td>
+            </tr>
+            <tr>
+                <td><label for="Mobile Phone">Mobile Phone:</label></td>
+                <td><input placeholder="Enter Your Mobile Number"type="number" name="Phone" maxlength="11" required>
+                <label for="">(Maximum 11 Digits Number)</label></td>
+            </tr>
+            <tr>
+                <td><label for="Address">Address:</label></td>
+                <td><textarea name="address" id="address" placeholder="Enter Your Address" cols="25" rows="5" required></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Gender:</label></td>
+                <td><label for="Male">Male</label>
+                <input type="radio" name="gender" id="male">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female">
+            </td >
+            </tr>
+            <tr>
+                <td><label for="city">City:</label></td>
+                <td><input placeholder="Enter Your City"type="text" name="city" id="city" size="25" required>
+                <label for="">(max 30 characters a-z and A-Z)</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Pin Code">Pin Code:</label></td>
+                <td><input placeholder="Enter Pin Code"type="Number" name="pincode" id="pincode" size="6" required>
+                <label for="">(6 Digits Number)</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="State">State:</label></td>
+                <td><input placeholder="Enter Your State"type="text" name="State" id="City" size="25" required>
+                <label for="">(max 30 characters a-z and A-Z)</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="country">Country:</label></td>
+                <td><input placeholder="Enter Your Country"type="text" name="Country" id="country" size="25" required>
+                <label for="">(max 30 characters a-z and A-Z)</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Hobbies</label></td>
+                <td><label for="drawing">Drawing</label><input type="checkbox" name="drawing" id="drawing">
+                <label for="gaming">Gaming</label><input type="checkbox" name="gaming" id="gaming">
+                <label for="Swimming">Swimming</label><input type="checkbox" name="Swimming" id="Swimming">
+                <label for="Fishing">Fishing</label><input type="checkbox" name="fishing" id="fishing">
+                <label for="other">other</label><textarea type="checkbox" name="other" id="other"cols="25" rows="1"></textarea required>
+    </td>
+</tr>
+<tr>
+    <td> <label for="">Qualification:</label></td>
+    
+    <td>
+        <table>
+            <tr>
+                <th>SI.No.Examination</th>
+                <th>Board</th>
+                <th>Percentage</th>
+                <th>year of passing</th>
+                
+            </tr>
+            <tr>
+                <th>Class X</th>
+                <td><input type="text" name="Board"  id="board"></td>
+                <td><input type="number" name="Percentage"  id="Percentage"></td>
+                <td><input type="number" name="year"  id="year"></td>
+               
+            </tr>
+            <tr>
+                <th>Class XII</th>
+                <td><input type="text" name="Board"></td>
+                <td><input type="number" name="Percentage"></td>
+                <td><input type="number" name="year"></td>
+            </tr>
+            <tr>
+                <th>Graduation</th>
+                <td><input type="text" name="Board"></td>
+                <td><input type="number" name="Percentage"></td>
+                <td><input type="number" name="year"></td>
+            </tr>
+            <tr>
+                <th>Maters</th>
+                <td><input type="text" name="Board"></td>
+                <td><input type="number" name="Percentage"></td>
+                <td><input type="number" name="year" ></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td> <center><label for="">(10 char max)</label></center> </td>
+                <td><center><label for="">(upto 2 decimal)</label></center> </td>
+            </tr>
+            
+
+        </table>
+    </td>
+</tr>
+<tr>
+    <td> <center> <label for="">Couses Applied <br> For:</label></center></td> 
+    <td><label for="c1">B.Sc:</label><input type="checkbox" name="courses"  id="c1">
+        <label for="c2">BCA</label><input type="checkbox" name="courses" id="c2">
+        <label for="c3">B.A</label><input type="checkbox" name="courses" id="c3">
+        <label for="c4">B.com</label><input type="checkbox" name="courses" id="c4"></td>
+    
+</tr>
+
+<tr>
+    <center><td><input type="submit">
+        <input type="reset"></td></center>
+    
+   
+</tr>
+
+
+
+
+        </table>
+    </form>
+</center>
+</body>
+</html>
